@@ -1,0 +1,119 @@
+/* within the body tags*/
+body {
+  /* font family is defined*/
+  font-family: 'Open Sans', sans-serif;
+  /* font size is 16px*/
+  font-size: 16px;
+  /* vertical distance between lines of text is defined as 1*/
+  line-height: 1;
+}
+
+/* within the text area tags */
+textarea{
+  /* the background is transparent*/
+  background: transparent;
+  /* there is no border */
+  border: none;
+  /* no resize set */
+  resize: none;
+  /* text color is black*/
+  color: #000000;
+  /* solid black border that comes in 1px from the left */
+  border-left: 1px solid black;
+  /* padding is set to 10px */
+  padding: 10px;
+}
+
+/* within the jumbotron class */
+.jumbotron {
+  /* text alignment is centered */
+  text-align: center;
+  /* the background is transparent*/
+  background-color: transparent;
+  /* text color is black*/
+  color: black;
+  /* no rounded corners on the border */
+  border-radius: 0;
+   /* solid black border that comes up 10px from the bottom*/
+  border-bottom: 10px solid black;
+}
+
+/* within the description class */
+.description{
+  /* preserve browser white space- wrap text when necessary and on line breaks */
+  white-space: pre-wrap;
+}
+
+/* within the time-block class */
+.time-block{
+  /* text alignment is centered */
+  text-align: center;
+  /* rounding for top left corner of the border */
+  border-radius: 15px;
+}
+
+/* within the row class */
+.row {
+  /* preserve browser white space- wrap text when necessary and on line breaks */
+  white-space: pre-wrap;
+  /* row height is 80px*/
+  height: 80px;
+  /* solid black border that comes up 10px from the bottom*/
+  border-top: 1px solid white;;
+}
+
+/* within the hour class */
+.hour {
+  /* background color is white */
+  background-color: #ffffff;
+  /* text color is black*/
+  color: #000000;
+  /* dashed black border that comes down 1px from the top*/ 
+  border-top: 1px dashed #000000;
+}
+
+/* within the past class */
+.past {
+  /* background color is white */
+  background-color: #d3d3d3;
+  /* text color is white */
+  color: white;
+}
+
+/* within the present class */
+.present {
+  /* background color is red */
+  background-color: #ff6961;
+  /* text color is white */
+  color: white;
+}
+
+/* within the future class */
+.future {
+  /* background color is green*/
+  background-color: #77dd77;
+  /* text color is white */
+  color: white;
+}
+
+/* within the saveBtn class */
+.saveBtn {
+  /* solid black border that comes in 1px from the left */
+  border-left: 1px solid black;
+  /* round top right corner of the bottom 15px */
+  border-top-right-radius: 15px;
+  /* round bottom right corner of the bottom 15px */
+  border-bottom-right-radius: 15px;
+  /* background color is blue*/
+  background-color: #06AED5;
+  /* text color is white */
+  color: white;
+}
+
+/* save icon styling within the saveBtn*/
+.saveBtn i:hover {
+  /* button is 20px */
+  font-size: 20px;
+  /* specifies a transition effect for .3 seconds with a slow start and end*/
+  transition: all .3s ease-in-out;
+}

@@ -1,0 +1,148 @@
+<!-- Define document type as a html file and the language in English-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Define the character set to be used-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- links to all necessary stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- title of tab when opened-->
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <!-- class of jumbotron to use as the header for the page-->
+  <header class="jumbotron">
+    <!-- h1 tag displays the text "Work Day Scheduler"-->
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <!-- description of the Work Day Scheduler-->
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <!-- container created for the hours of the day-->
+  <div class="container">
+    <!-- row for 9:00 am content-->
+    <div id="hour-9" class="row time-block">
+      <!-- column of 9:00 am takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        9AM
+      </div>
+      <!-- description for 9:00 am takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for 9:00 am save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 10:00 am content-->
+    <div id="hour-10" class="row time-block">
+      <!-- column of 10:00 am takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        10AM
+      </div>
+      <!-- description for 10:00 am takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 11:00 am content-->
+    <div id="hour-11" class="row time-block">
+      <!-- column of 11:00 am takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        11AM
+      </div>
+      <!-- description for 11:00 am takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 12:00 pm content-->
+    <div id="hour-12" class="row time-block">
+      <!-- column of 12:00 pm takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        12PM
+      </div>
+      <!-- description for 12:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 1:00 pm content-->
+    <div id="hour-13" class="row time-block">
+      <!-- column of 1:00 pm takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        1PM
+      </div>
+      <!-- description for 1:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 2:00 pm content-->
+    <div id="hour-14" class="row time-block">
+      <!-- column of 2:00 pm takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        2PM
+      </div>
+      <!-- description for 2:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 3:00 pm content-->
+    <div id="hour-15" class="row time-block">
+      <!-- column of 3:00 pm takes up 1 of the 12 columns in the row--> 
+     <div class="col-md-1 hour">
+        3PM
+      </div>
+      <!-- description for 3:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 4:00 pm content-->
+    <div id="hour-16" class="row time-block">
+      <!-- column of 4:00 pm takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        4PM
+      </div>
+      <!-- description for 4:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- row for 5:00 pm content-->
+    <div id="hour-17" class="row time-block">
+      <!-- column of 5:00 pm takes up 1 of the 12 columns in the row-->
+      <div class="col-md-1 hour">
+        5PM
+      </div>
+      <!-- description for 5:00 pm takes up 10 of the 12 columns in the row-->
+      <textarea class="col-md-10 description">
+      </textarea>
+      <!-- button created for save that takes up 1 of the 12 columns in the row-->
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
+
+    <!-- link to jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- link to ajax library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!--link to javascript-->
+    <script src="script.js"></script>
+</body>
+
+</html>
