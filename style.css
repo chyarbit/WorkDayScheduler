@@ -117,3 +117,9 @@ textarea{
   /* specifies a transition effect for .3 seconds with a slow start and end*/
   transition: all .3s ease-in-out;
 }
+
+/* current date and time styling*/
+#currentDateAndTime {
+  font-size: 20px;
+  
+}
